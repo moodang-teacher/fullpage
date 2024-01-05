@@ -71,6 +71,21 @@ nav a {
   height: 100px;
   background: #333;
 }
+
+.intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+}
+
 .sec1 {
   background: red;
 }
